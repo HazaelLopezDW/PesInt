@@ -1,22 +1,13 @@
 Algoritmo ComandoLeer 
 	
-	// Declaracion asignacion y optencion de variables
+	// Algoritmo en que cual pedimos datos introducidos por el usuario. Usamos el comando Leer
 	
-	// Para declarar una variable en PseInt tenemos que hacer uso de la palabra reservada Definir, 
-	//En PseInt podemos definr 4 tipos de variable
-	Definir num Como Entero;
+	// Declaramos una variable de tipo Entero llamada edad la cual sele asignara la edad ingresada por el usuario
+	Definir edad Como Entero;
 	
-	// Asignación. Asignamos un valor a la variable num. Podemos hacer dos tipos de asignacion.
-	//(Como la expreción compuesta <- menor y guion medio) o con el simbolo de igual =
+	Escribir "Por favor ingrese su edad";
+	Leer edad; // Hacemos uso del comando leer para Asignarle a edad lo que el usuario ingreso 
 	
-	// Primer forma expreción compuesta <-
-	num <- 10;
-	Escribir "El valor de num es: " , num;
+	Escribir "La edad que digito es: " , edad; // Mostramos en panatalla con el comando Escribir un mensaje con la edad ingresada por el usuario
 	
-	// Segunda forma con el signo de igual
-	num = 20;
-	Escribir "Ahora el valor de num es: " , num;
-	
-	// Nota: Para concatenar. Concatenar (Añadir a una cadena de texto o adjuntar más contenido lo hacemos poniendo una coma (,) seguido
-	// de lo que queremos adjuntar)
 FinAlgoritmo
