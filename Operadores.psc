@@ -9,6 +9,21 @@ Algoritmo Operadores
 	// Operadores Aritmeticos BASICOS (Suma +) (Resta -) (Multiplicación *) (División /) (Modulo %)
 	// Operadores Aritmeticos UNARIOS (PostIncremento ++) (PreIncremento --) (Negacion !)
 	
+	// Ejemplo 1
+	// Declaramos las variable
+	Definir a, b, c Como Entero;
 	
+	a = 10;
+	b = 5;
+	c = a + b;
+	Escribir "La variable c es: " , c;
+	
+	// Ejemplo 1
+	// Declaramos las variable
+	
+	a = 10;
+	b = 5;
+	c = 5 + 3 * 2 / 3 * 3 + 5;
+	Escribir "La variable c es: " , c;
 	
 FinAlgoritmo
