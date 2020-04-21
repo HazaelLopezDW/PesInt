@@ -16,14 +16,14 @@ Algoritmo EcuaDe2GradoMejorada
 	Escribir "Ingrese el valor de varC:";
 	Leer varC;
 	
-	Si ((4*varA*varC) <= (varB^2)) Entonces
+	Si ((4*varA*varC) > (varB^2)) Entonces
+		Escribir "Error, La raiz cuadrada tiene que ser posiva";
+	SiNo
 		xUno = (-varB + rc((varB^2) - (4*varA*varC)))/(2*varA);
 		xDos = (-varB - rc((varB^2) - (4*varA*varC)))/(2*varA);
 		
 		Escribir "El valor de x1 es: " , xUno;
 		Escribir "El valor de x2 es: " , xDos;
-	SiNo
-		Escribir "Error, La raiz cuadrada tiene que ser posiva";
 	Fin Si
 	
 	// (-b +,- rc((b^2) - (4*a*c)))/(2*a)
